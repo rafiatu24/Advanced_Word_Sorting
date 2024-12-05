@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/sort")
 public class SortingController {
 
-    private final SortingService sortingService;
+    private  final SortingService sortingService;
 
     // Constructor Injection of SortingService
     @Autowired
@@ -45,12 +45,13 @@ public class SortingController {
             case "merge":
                 sortedData = sortingService.mergeSort(request.getData());
                 break;
-                 case "bucket":
-            sortedData = sortingService.bucketSort(request.getData());
-            break;
-        case "radix":
-            sortedData = sortingService.radixSort(request.getData());
-            break;
+            case "bucket":
+                sortedData = sortingService.bucketSort(request.getData());
+                break;
+
+            case "radix":
+                sortedData = sortingService.radixSort(request.getData());
+                break;
             default:
                 throw new IllegalArgumentException("Invalid sorting algorithm: " + request.getAlgorithm());
         }
@@ -65,4 +66,7 @@ public class SortingController {
 
         return result;
     }
+
+
+
 }

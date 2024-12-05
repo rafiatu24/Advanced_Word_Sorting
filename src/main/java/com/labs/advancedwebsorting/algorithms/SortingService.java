@@ -2,9 +2,7 @@ package com.labs.advancedwebsorting.algorithms;
 
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -98,7 +96,7 @@ public List<Integer> bucketSort(List<Integer> data) {
        // Sort individual buckets and merge them
        List<Integer> sorted = new ArrayList<>();
        for (List<Integer> bucket : buckets) {
-           sorted.addAll(quickSort(bucket)); // Use quickSort for sorting buckets
+           sorted.addAll(bucketSort(bucket)); // Use quickSort for sorting buckets
        }
 
        return sorted;
@@ -152,7 +150,14 @@ private List<Integer> countingSortByDigit(List<Integer> data, int digitPlace) {
     return output;
 }
 
+
+
+
 }
+
+
+
+
 
         
     

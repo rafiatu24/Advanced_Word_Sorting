@@ -10,16 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169a447d-fd78-46cf-a9ad-191f7354a7c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/algorithms/Trial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/algorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/algorithms/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/algorithms/SortingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/algorithms/SortingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/controller/SortingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/controller/SortingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/entity/SortRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/entity/SortRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/entity/SortResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/entity/SortResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,26 +75,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SortingService (1).executor": "Run",
+    "Application.SortingService.executor": "Run",
+    "Application.Trial.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.labs.advancedwebsorting.controller" />
@@ -110,7 +107,41 @@
       <recent name="com.labs.advancedwebsorting.algorithms" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="SortingService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SortingService" />
+      <module name="AdvancedWordSorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.labs.advancedwebsorting.algorithms.SortingService" />
+      <module name="AdvancedWordSorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.labs.advancedwebsorting.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.labs.advancedwebsorting.algorithms.Trial" />
+      <module name="AdvancedWordSorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.labs.advancedwebsorting.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -198,6 +229,13 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Trial" />
+        <item itemvalue="Application.SortingService" />
+        <item itemvalue="Application.SortingService (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -219,11 +257,26 @@
       <workItem from="1732867946210" duration="15390000" />
       <workItem from="1733125797885" duration="1373000" />
       <workItem from="1733128900189" duration="11119000" />
-      <workItem from="1733210539867" duration="685000" />
+      <workItem from="1733210539867" duration="12260000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/labs/advancedwebsorting/algorithms/SortingService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

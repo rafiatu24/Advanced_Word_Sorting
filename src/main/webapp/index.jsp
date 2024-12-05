@@ -78,8 +78,12 @@
                 success: function(response) {
                     // Display the results
                     $("#sortedData").text(response.sortedData.join(', '));
+
+                    console.log(response.sortedData);
                     $("#executionTime").text(response.executionTime);
                     $("#result").show();
+
+
                 },
                 error: function(xhr, status, error) {
                     alert("Error: " + error);
